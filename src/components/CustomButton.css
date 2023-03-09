@@ -1,0 +1,17 @@
+.cust-button{
+    color: white;
+    background-color: transparent;
+    height: fit-content;
+    width: auto;
+    font-size: 1.6rem;
+    font-family: monospace;
+    cursor: pointer;
+    border: 1px solid cadetblue;
+    padding: 20px 20px;
+    
+}
+@media screen and (min-width:768px) {
+    button{
+        margin:10px
+    }
+}
