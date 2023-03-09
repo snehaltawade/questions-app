@@ -1,2 +1,2 @@
-# questions-app.github.io
+# questions-app
 Questionary Application using react js
