@@ -1,0 +1,11 @@
+.quizContent{
+    display: flex;
+    justify-content: center;
+    top: 100px;
+}
+
+.quizComponent{
+    display: flex;
+    flex-direction: column;
+
+}

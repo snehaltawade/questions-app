@@ -1,0 +1,23 @@
+.quizCard{
+    height: fit-content;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px;
+    width: 90%;
+    font-family: monospace;
+    font-size: 1.6rem;
+    min-width: 70vw;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.question{
+    text-align: left;
+}
+.submit{
+    background-color: cadetblue !important;
+    border-radius: 20px;
+}
