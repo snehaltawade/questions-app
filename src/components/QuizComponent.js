@@ -41,10 +41,10 @@ const QuizComponent =()=>{
         } */}
         <div> <h3>{index+1}/{dummyData.length}</h3></div>
        <div className="quizContent">
-       <CustomButton onClick={prev}>Prev</CustomButton>
+       <CustomButton onClick={prev} className="button-prev">Prev</CustomButton>
          
          <QuizCard data={dummyData[index]}/>
-         <CustomButton onClick={next}>Next</CustomButton>
+         <CustomButton onClick={next} className={'button-next'}>Next</CustomButton>
        </div>
          
        
