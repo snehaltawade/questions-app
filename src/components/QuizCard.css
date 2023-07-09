@@ -3,7 +3,7 @@
     border: 1px solid white;
     display: flex;
     flex-direction: column;
-    padding: 20px 60px;
+    padding: 20px 16px;
     width: 90%;
     font-family: monospace;
     font-size: 1.6rem;
@@ -23,7 +23,7 @@
 }
 @media screen and (min-width:768px) {
     .quizCard{
-        padding: 20px 16px;
+        padding: 20px 60px;
     }
     .options{
         margin-top: 25px;
